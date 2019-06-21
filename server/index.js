@@ -1,5 +1,5 @@
-const { ApolloServer, gql } = require("apollo-server-express")
-const express = require("express")
+import { ApolloServer, gql } from "apollo-server-express"
+import express from "express"
 // instance of express
 const app = express()
 
